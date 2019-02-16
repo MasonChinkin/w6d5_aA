@@ -1,0 +1,72 @@
+
+
+.clock h2 {
+    font-size: 30px;
+}
+
+.clock {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100px;
+    background: lightgray;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px auto 0 auto;
+    border-radius: 10px;
+}
+
+.clock div {
+    display: flex;
+    justify-content: space-between;
+}
+
+[class*="-title"] {
+    font-size: 60px;
+    margin: 0 auto;
+    text-shadow: 0 0 8px white;
+}
+
+.clock-widget {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+body {
+    background-image: url("https://www.placecage.com/200/305");
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.tab-headers {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 0 auto;
+    cursor: pointer;
+}
+
+.tab-headers > h1 {
+    background: fuchsia;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 33%; 
+    text-align: center;
+}
+
+.tab-content {
+    display: flex;
+    height: 200px;
+    background: lightpink;
+    border: 2px dashed fuchsia;
+    border-top: 0;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.tabs-widget {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
