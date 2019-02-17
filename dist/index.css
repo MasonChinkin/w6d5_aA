@@ -20,7 +20,7 @@
 }
 
 [class*="-title"] {
-    font-size: 60px;
+    font-size: 45px;
     margin: 0 auto;
     text-shadow: 0 0 8px white;
 }
@@ -64,21 +64,27 @@ body {
 }
 
 .tabs-widget {
-    width: 45%;
+    width: 30%;
     margin: 0 auto;
     padding: 10px;
 }
 
 .weather-widget {
-    width: 45%;
+    width: 30%;
     margin: 0 auto;
     padding: 10px;
 }
 
-.tab-weather-cont {
+.auto-widget {
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.tab-weather-auto-cont {
     display: flex;
     justify-content: space-around;
-    width: 500px;
+    width: 650px;
     margin: 0 auto;
 }
 
@@ -89,4 +95,16 @@ body {
     height: 200px;
     line-height: 2;
     padding: 20px;
+}
+
+.auto-content {
+    background: powderblue;
+    border: 2px solid greenyellow;
+    margin: 10px auto 0 auto;
+    padding: 10px;
+}
+
+.auto-input {
+    width: 90%;
+    margin-bottom: 10px;
 }
