@@ -1,6 +1,7 @@
 import React from 'react'
 import Clock from './clock'
 import Tabs from './tabs'
+import Weather from './weather'
 
 let data = [
 	{ title: 'sexy', content: 'https://www.placecage.com/g/200/301' },
@@ -12,7 +13,11 @@ const Root = () => {
 	return (
 		<div>
 			<Clock />
-			<Tabs tabsData={data} />
+
+			<div className="tab-weather-cont">
+				<Tabs tabsData={data} />
+				<Weather />
+			</div>
 		</div>
 	)
 }

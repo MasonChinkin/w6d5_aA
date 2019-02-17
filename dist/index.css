@@ -1,5 +1,3 @@
-
-
 .clock h2 {
     font-size: 30px;
 }
@@ -45,18 +43,18 @@ body {
     cursor: pointer;
 }
 
-.tab-headers > h1 {
+.tab-headers>h1 {
     background: fuchsia;
     border: 2px solid black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 33%; 
+    width: 33%;
     text-align: center;
 }
 
 .tab-content {
     display: flex;
-    height: 200px;
+    /* height: 200px; */
     background: lightpink;
     border: 2px dashed fuchsia;
     border-top: 0;
@@ -66,7 +64,29 @@ body {
 }
 
 .tabs-widget {
-    width: 500px;
+    width: 45%;
     margin: 0 auto;
     padding: 10px;
+}
+
+.weather-widget {
+    width: 45%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.tab-weather-cont {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.weather-content {
+    background: lightblue;
+    border: 2px orange dashed;
+    margin: 10px auto 0 auto;
+    height: 200px;
+    line-height: 2;
+    padding: 20px;
 }
